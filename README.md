@@ -85,7 +85,7 @@ Run the notebook:
 jupyter notebook momentum_factor_strategy.ipynb
 ```
 
-Run cells top to bottom. On first run, data is downloaded from Yahoo Finance and cached locally — this takes a few minutes. Subsequent runs load from the Parquet cache and are fast.
+Run cells top to bottom. On first run, data is downloaded from Yahoo Finance and cached locally. Subsequent runs load from the Parquet cache and are fast.
 
 To force a fresh data download, delete the `data_cache/` directory:
 ```bash
